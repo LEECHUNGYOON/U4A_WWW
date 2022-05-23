@@ -1,0 +1,1 @@
+!function(){"use strict";oAPP.onKeypad_Control=function(o){"X"==o.active?Keyboard.show():Keyboard.hide()}}();
