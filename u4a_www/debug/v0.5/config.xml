@@ -63,6 +63,9 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 
         <preference name="loadUrlTimeoutValue" value="60000" />
 		
+        <!-- CORS -->
+        <preference name="AndroidInsecureFileModeEnabled" value="true" />
+
     </platform>
     <platform name="ios">
         <allow-intent href="*" />
