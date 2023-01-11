@@ -40,6 +40,7 @@
 
         xhr.responseType = 'blob';
         xhr.open("GET", url, true);
+        xhr.withCredentials = true;
         xhr.send();
 
     }; // end of o.onGetFileInCache   
